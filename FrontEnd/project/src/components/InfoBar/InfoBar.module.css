@@ -1,0 +1,68 @@
+.InfoBar {
+  width: 100%;
+  background: #00af9c;
+  border-radius: 4px 4px 0 0;
+  max-height: 60px;
+  padding: 16px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.Logo {
+  width: 10%;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.Title {
+  font: inherit;
+  width: 80%;
+  font-size: 1rem;
+  display: block;
+  padding: 0 16px;
+  font-weight: bold;
+  white-space: nowrap;
+  text-align: left;
+}
+
+.Users {
+  font-weight: normal;
+  font-size: 1rem;
+  white-space: nowrap;
+  width: 100%;
+  overflow: scroll;
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+.Users::-webkit-scrollbar {
+  display: none;
+}
+
+.CloseButton {
+  background-color: transparent;
+  cursor: pointer;
+  color: white;
+  font: inherit;
+  font-size: 1rem;
+  padding: 4px 8px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.CloseButton:hover{
+  background-color: #009b89;
+}
+
+@media(min-width: 500px) {
+  .Logo {
+    font-size: 2rem;
+  }
+}

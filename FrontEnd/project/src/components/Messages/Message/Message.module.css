@@ -1,0 +1,68 @@
+.AdminMessage {
+  padding: 8px 16px;
+  background-color: #F3F3F3;
+  color: #828282;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 8px;
+}
+
+.UserMessage, .RecievedMessage {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 8px;
+}
+
+.UserMessage {
+  justify-content: flex-end;
+}
+
+.RecievedMessage {
+  justify-content: flex-start;
+}
+
+.UserMessageBox, .RecievedMessageBox {
+  background: #F3F3F3;
+  border-radius: 16px;
+  padding: 10px 20px;
+  color: white;
+  display: inline-block;
+  max-width: 80%;
+}
+
+.UserMessageBox {
+  background: #F3F3F3;
+  border-bottom-right-radius: 0px;
+}
+
+.RecievedMessageBox {
+  background: #00AF9C;
+  border-top-left-radius: 0px;
+}
+
+.UserName, .RecievedUserName {
+  display: flex;
+  align-items: center;
+  font-family: Helvetica;
+  color: #828282;
+  letter-spacing: 0.3px;
+  margin: 0 8px;
+}
+
+.UserMessageText, .RecievedMessageText {
+  width: 100%;
+  letter-spacing: 0;
+  float: left;
+  font-size: 1.1em;
+  word-wrap: break-word;
+}
+
+.UserMessageText {
+  color: #353535;
+  text-align: right;
+}
+
+.RecievedMessageText {
+  color: white;
+  text-align: left;
+}
