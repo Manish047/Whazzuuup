@@ -72,7 +72,7 @@ https://whazzuuup.netlify.app/
 
 ## To run this app..
 
-### Run 'cd your-app-root-directory'
+### Run 'cd your-app-root-directory' in both 'FrontEnd/project' and 'BackEnd' directories
 
 Navigate to the root folder where you copied the code.
 
@@ -80,9 +80,14 @@ Navigate to the root folder where you copied the code.
 
 Installs all the dependencies.
 
+### Add
+
+1) Your own "Font Awesome CDN" in FrontEnd/project/public/index.html at the end
+2) Your own "Hosted Server URL" in FrontEnd/project/src/components/Chat/Chat.js or just uncomment the next line to run on localhost:5000
+
 ### Run 'npm start'
 
-Runs the app in the development mode.\
+Runs the app in the development mode.<br/>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 
