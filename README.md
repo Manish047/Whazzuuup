@@ -8,6 +8,19 @@ this awesome tutorial on YouTube: https://www.youtube.com/watch?v=ZwFA3YMfkoc&t=
 made myself this beautiful application.
 
 
+## Dependencies Used
+
+### Backend
+cors<br/>
+socket.io<br/>
+
+### Frontend
+socket.io-client<br/>
+react-emoji<br/>
+react-scroll-to-bottom<br/>
+query-string<br/>
+
+
 ## Try It Yourself
 https://whazzuuup.netlify.app/
 
@@ -55,19 +68,6 @@ https://whazzuuup.netlify.app/
 <div align="center">
     <img src="./Screenshots/ScrollToBottom.png" width="800px" />
 </div>
-
-
-## Dependencies Used
-
-### Backend
-cors<br/>
-socket.io<br/>
-
-### Frontend
-socket.io-client<br/>
-react-emoji<br/>
-react-scroll-to-bottom<br/>
-query-string<br/>
 
 
 ## To run this app..
