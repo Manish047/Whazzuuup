@@ -1,27 +1,74 @@
-# RecipeSearch: A Recipe Search App Made Using React.js
+# Whazzuuup: Chat Application
 
-A Simple Recipe App made using React.js.<br/>
+## A chatting application made with ReactJs and NodeJs 
 
-## API Used
+Since I wanted to learn about WebSockets in React and Node,<br/>
+I Went thorugh the socket.io documentation: https://socket.io/docs/v3 &<br/>
+this awesome tutorial on YouTube: https://www.youtube.com/watch?v=ZwFA3YMfkoc&t=6389s &<br/>
+made myself this beautiful application.
 
-https://developer.edamam.com/edamam-docs-recipe-api
 
-## Content Covered
+## Try It Yourself
+https://whazzuuup.netlify.app/
 
-API Integration<br/>
-Custom Pagination<br/>
-Responsive UI
 
-## Must Read
+## Screen Shots
 
-The API response claims to have result count(No. of recipes) for each search value to be a very large number while actually the documents are not more than 100.<br/>
-That is the reason why you might not see anything after page number 9.<br/>
+### Create a Chat Room
 
-Detailed Explaination:<br/>
-ItemsPerPage = 12<br/>
-Page = 9<br/>
-Therefore 12 * 9  = 108 i.e. > 100<br/>
-Thus the 9th page might only be showing values 96 - 100<br/>
+<div align="center">
+    <img src="./Screenshots/Home.png" width="800px" />
+</div>
+
+### First User
+
+<div align="center">
+    <img src="./Screenshots/User1.png" width="800px" />
+</div>
+
+### Second User
+
+<div align="center">
+    <img src="./Screenshots/User2.png" width="800px" />
+</div>
+
+### Second User Leaves
+
+<div align="center">
+    <img src="./Screenshots/User Leaves.png" width="800px" />
+</div>
+
+### What's a chat app without emoji's? - 1
+
+<div align="center">
+    <img src="./Screenshots/Emoji1.png" width="800px" />
+</div>
+
+### What's a chat app without emoji's? - 2
+
+<div align="center">
+    <img src="./Screenshots/Emoji2.png" width="800px" />
+</div>
+
+### Too many messages? - Scroll To Bottom on a click
+
+<div align="center">
+    <img src="./Screenshots/ScrollToBottom.png" width="800px" />
+</div>
+
+
+## Dependencies Used
+
+### Backend
+cors<br/>
+socket.io<br/>
+
+### Frontend
+socket.io-client<br/>
+react-emoji<br/>
+react-scroll-to-bottom<br/>
+query-string<br/>
+
 
 ## To run this app..
 
@@ -40,22 +87,4 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 
 
-## A few Screen Shots...
 
-### Initial Look
-
-<div align="center">
-    <img src="./screenshots/Initial.png" width="800px" />
-</div>
-
-### Searched Results
-
-<div align="center">
-    <img src="./screenshots/SearchResults.png" width="800px" />
-</div>
-
-### Pagination
-
-<div align="center">
-    <img src="./screenshots/Pagination.png" width="800px" />
-</div>
