@@ -82,8 +82,8 @@ Installs all the dependencies.
 
 ### Add
 
-1) Your own "Font Awesome CDN" in FrontEnd/project/public/index.html at the end
-2) Your own "Hosted Server URL" in FrontEnd/project/src/components/Chat/Chat.js or just uncomment the next line to run on localhost:5000
+1) Your own "Font Awesome CDN" in FrontEnd/project/public/index.html at the end.
+2) Your own "Hosted Server URL" in FrontEnd/project/src/components/Chat/Chat.js or just uncomment the next line to run on localhost:5000.
 
 ### Run 'npm start'
 
