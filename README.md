@@ -72,11 +72,11 @@ https://whazzuuup.netlify.app/
 
 ## To run this app..
 
-### Run 'cd your-app-root-directory' in both 'FrontEnd/project' and 'BackEnd' directories
+### Run 'cd your-app-root-directory' for both 'FrontEnd/project' and 'BackEnd' directories
 
 Navigate to the root folder where you copied the code.
 
-### Run 'npm install'
+### Run 'npm install' in both 'FrontEnd/project' and 'BackEnd' directories
 
 Installs all the dependencies.
 
