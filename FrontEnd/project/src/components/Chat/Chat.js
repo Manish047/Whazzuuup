@@ -15,7 +15,7 @@ const Chat = props => {
     const [users, setUsers] = useState([]);
     const [message, setMessage] = useState('');
     const [messages, setMessages] = useState([]);
-    const ENDPOINT = 'https://chat-47.herokuapp.com/';
+    const ENDPOINT = 'YOUR_HOSTED_SERVER_URL_OR_RUN_ON_LOCALHOST/';
     // const ENDPOINT = 'http://localhost:5000/';
 
     // Runs everytime component renders
